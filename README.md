@@ -22,10 +22,15 @@ Developed by: Vaishnavi M
 Register Number: 21500310
 
 import pandas as pd
+
 df = pd.read_csv('data.csv')
+
 print(df.head(10))
+
 print(df.tail())
+
 print("Number of rows:",len(df.axes[0]))
+
 print("Number of columns:",len(df.axes[1]))
 
 ## OUTPUT:
